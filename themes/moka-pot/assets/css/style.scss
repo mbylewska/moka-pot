@@ -1,0 +1,25 @@
+/*-----------------------------------------
+Changing gap between different columns
+-----------------------------------------*/
+.picture_column{
+    gap:0;
+}
+
+.price_columns {
+    gap: 3rem;
+}
+
+.testimonials_column{
+    gap:5rem;
+}
+
+/*--------------------------------------
+Changing hight of line 
+---------------------------------------*/
+.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots).detail_line {
+    height: 1px;
+}
+
+.remove_block_space{
+    margin-bottom: 0;
+}
